@@ -60,8 +60,14 @@ namespace APOAPP.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int fragmentContainer = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int sampleTextView = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int toolbar = 2131099650;
 			
 			static Id()
 			{
@@ -78,6 +84,12 @@ namespace APOAPP.Droid
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Tab = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int toolbar = 2130903042;
 			
 			static Layout()
 			{
@@ -104,6 +116,22 @@ namespace APOAPP.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MyTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
